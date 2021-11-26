@@ -1,0 +1,168 @@
+/*common css start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0F2656;
+	font-family: sans-serif;
+}
+/*common css end*/
+/*header start*/
+header{
+	border: 1px solid grey;
+	padding: 10px 0;
+}
+.container{
+  margin: 0 auto;
+  width: 90%;
+  overflow: hidden;
+
+}
+.logo{
+   width: 10%;
+   float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu{
+   width: 60%;
+   float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 20px;
+	display: inline-block;
+	font-size: 18px;
+	color: #0F2656;
+	text-decoration: none;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+
+}
+.container2{
+	margin: 0 auto;
+	width: 70%;
+
+}
+.b_content{
+	text-align: center;
+
+}
+.b_content h1{
+ margin: 0;
+ font-size: 50px;
+ line-height: 70px;
+}
+.blue{
+	color: #008AFF;
+}
+.b_content p{
+	margin: 10px 0 20px;
+	line-height: 25px;
+
+}
+.b_img{}
+.b_img img{
+	margin: 0 auto;
+	width: 70%;
+
+}
+/*banner end*/
+/*banner2 start*/
+.container3{
+	margin: 0 auto;
+	padding-top: 100px;
+	overflow: hidden;
+}
+.b_content2{
+	margin-left: 320px;
+	margin-right: 50px;
+	width: 25%;
+	float: left;
+}
+.b_content2 h1{
+	margin-bottom: 10px;
+   text-align: right;
+   font-size: 70px;
+   color: orangered;
+}
+.b_content2 p{
+	text-align: right;
+}
+.b_content3{
+	width: 40%;
+	float: left;
+}
+.b_content3 h1{
+	font-size: 70px;
+}
+/*banner2 end*/
+/*image1 start*/
+.container4{
+	margin: 0 auto;
+   padding-top: 30px;
+   padding-bottom: 50px;
+   width: 80%;
+   overflow: hidden;
+}
+.image1{
+	margin-right: 20px;
+   padding: 30px;
+   width: 27%;
+   background-color: #FDEBED;
+   float: left;
+}
+/*image1 end*/
+/*image2 start*/
+.container5{
+	margin-right: 20px;
+   padding: 30px;
+   width: 27%;
+   background-color: #EBF9F4;
+   float: left;
+}
+.image2{
+}
+.image2 img{
+	width: 100%;
+}
+/*image2 end*/
+/*image3 start*/
+.container6{
+	margin-right: 20px;
+	padding: 30px;
+	width: 27%;
+	background-color: #FFF7E8;
+	float: left;
+}
+.image3{
+
+}
+.image3 img{
+	width: 100%;
+}
+/*image3 end*/
+footer{
+	padding: 25px 0;
+	color: white;
+   background-color: #0492FF;
+   text-align: center
+}
+.owner{
+	letter-spacing: 7px;
+   font-weight: 600
+}
